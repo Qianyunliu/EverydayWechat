@@ -68,7 +68,7 @@ alarm_info:
         - '萌萌哒'
         - '蕉群'
       alarm_timed:
-        - "8:00"
+        - "00:00"
 
       is_tomorrow: False # 是否发送明日信息（如天气，星座，万年历）
       #女友所在城市，用于发送天气。（可空）
@@ -105,7 +105,7 @@ alarm_info:
 #---------------------------群聊助手设置（已完成，正在整理。下个版本发布）--------------------------start
 group_helper_conf:
   is_open: True # 开启群助手
-  is_all: False # 是否对所有群开启。当开启时，只有黑名单的名单才不受影响（慎重开启！）
+  is_all: True # 是否对所有群开启。当开启时，只有黑名单的名单才不受影响（慎重开启！）
 
   # 白名单用户。当 is_all：Fase。只处理这个群里的消息
   group_name_white_list:
@@ -118,8 +118,8 @@ group_helper_conf:
   group_name_black_list:
     - 'EverydayWechat 交流群'
 
-  is_at: False # 艾特标记。只有当别人艾特机器人，才会处理消息（慎重关闭！）
-  is_auto_reply: False # 开启群自动回复（慎重开启！）
+  is_at: True # 艾特标记。只有当别人艾特机器人，才会处理消息（慎重关闭！）
+  is_auto_reply: True # 开启群自动回复（慎重开启！）
   is_weather: True # 是否开启天气查询
   is_calendar: True # 是否开启万历年查询
   is_rubbish: True  # 是否开启垃圾查询（待定TODO）
