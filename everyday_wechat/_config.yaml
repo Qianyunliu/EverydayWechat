@@ -36,8 +36,8 @@ auto_reply_info:
 
   # 智能闲聊（腾讯）https://ai.qq.com/product/nlpchat.shtml。免费且无限量
   qqnlpchat_conf:
-    app_id: '2121018233'
-    app_key: 'E3eAUOo0kA2NCHqd'
+    app_id: ''
+    app_key: ''
 
   # 海知智能 <https://ruyi.ai/> 功能很强大，不仅仅用于聊天。需申请 key，免费
   ruyi_conf:
@@ -52,7 +52,7 @@ auto_reply_info:
 
 
 
-#---------------------------------------定时提醒功能设置--------------------------------------start
+#---------------------------------------定时提醒功设置--------------------------------------start
 alarm_info:
   #True 开启定时提醒，False 关闭
   is_alarm: True
